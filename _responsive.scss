@@ -1,0 +1,13 @@
+// Responsive ness for width 600
+@import "_variables.scss";
+@media screen and (max-width: 992px) {
+    .popular-products-column {
+        flex: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .popular-products-row {
+        flex-direction: column;
+    }
+}
